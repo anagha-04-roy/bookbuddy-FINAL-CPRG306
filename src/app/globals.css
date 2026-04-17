@@ -24,3 +24,22 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Fixed input text disappearing in dark mode */
+input, textarea, select {
+  color: #050505 !important; 
+  border-color: #F4C9D6 !important; 
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #B35A75 !important; 
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none !important;
+  border-color:#b7677f!important;
+  box-shadow: 0 0 2px 2px #b7677f !important;
+}

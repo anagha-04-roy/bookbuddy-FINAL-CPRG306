@@ -106,7 +106,6 @@ export default function ProfilePage() {
 
           {/* Avatar */}
           <div className="w-24 h-24 bg-white rounded-full flex items-center justify-center shadow-md">
-            {/* Filled user icon */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-14 w-14 text-[#DF829D]"

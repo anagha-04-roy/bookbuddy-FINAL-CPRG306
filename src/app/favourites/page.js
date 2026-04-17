@@ -47,7 +47,6 @@ export default function FavouritesPage() {
         backgroundColor: "#FCE4EC",
       }}
     >
-      {/* Soft overlay */}
       <div className="absolute  bg-[#FCE4EC]/70 backdrop-blur-sm"></div>
 
       <div className="relative z-10">
